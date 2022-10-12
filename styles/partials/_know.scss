@@ -1,0 +1,46 @@
+.knowledge {
+    padding: 3rem;
+    .know__main {
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 1rem;
+        .know__top {
+            p {
+                padding: .5rem 0;
+                color: #aaaaaaaf;
+                font-family: $logofont;
+                font-weight: lighter;
+                letter-spacing: 2px;
+            }
+            h2 {
+                color: white;
+                font-family: $titlefont;
+                font-size: 2rem;
+                letter-spacing: 1px;
+            }
+            width: 20%;
+            border-bottom: 1px solid white;
+        }
+        .know__bottom {
+            padding: 1rem;
+            gap: 5rem;
+            display: flex;
+            i {
+                border-radius: .25rem;
+                padding: .5rem;
+                font-size: 3rem;
+                color: $lightred;
+                transition: background,color 250ms;
+                &:hover {
+                    background: url("../../images/background-desktop.svg") center no-repeat;
+                    background-size: cover;
+                    color: white;
+                }
+            }
+        }
+    }
+}

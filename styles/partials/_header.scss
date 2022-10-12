@@ -1,0 +1,30 @@
+body {
+    background-color: $dark;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    padding: 1rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header__logo {
+        h1 {
+            color: white;
+            font-family: $logofont;
+            font-weight: lighter;
+        }
+    }
+    .header__right {
+        .header__menu {
+            display: flex;
+            gap: 3rem;
+
+            a {
+                color: white;
+                font-family: $headerfont;
+            }
+        }
+    }
+}

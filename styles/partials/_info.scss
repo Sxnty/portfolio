@@ -1,0 +1,63 @@
+.about {
+    background: url("../../images/info-bg.svg") no-repeat center;
+    background-size: cover;
+    .about__main {
+        padding: 5rem;
+        display: flex;
+        
+        .about__left {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+
+            img {
+                background: url("../../images/background-desktop.svg") fixed no-repeat;
+                width: 40%;
+                border: 1px solid white;
+                border-radius: .25rem;
+                box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            }
+            
+        }
+        .about__right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align:left;
+            flex: .8;
+            padding-inline-start: 5rem;
+            border-left: 1px solid white;
+            gap: 1rem;
+            
+            h2 {
+                color: white;
+                font-family: $titlefont;
+                font-size: 3rem;
+                background-color: $lightred;
+                background: url("../../images/background-desktop.svg") fixed center;
+                background-size: cover;
+                width: fit-content;
+                border-bottom: 1px solid white;
+            }
+            p {
+                color: $dark;
+                font-size: 1.2rem;
+                font-family: $headerfont;
+                font-weight: lighter;
+            }
+            a {
+                width: fit-content;
+                color: #ffffffdc;
+                font-family: $logofont;
+                font-weight: lighter;
+                transition: border-bottom 250ms;
+
+                &:hover {
+                    border-bottom: 1px solid white;                }
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+
+.contact {
+    position: relative;
+    background: url("../../images/contact-bg.svg") fixed center no-repeat;
+    background-size: cover;
+    .custom-shape-divider-top-1665581130 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-top-1665581130 svg {
+        position: relative;
+        display: block;
+        width: calc(300% + 1.3px);
+        height: 262px;
+    }
+    
+    .custom-shape-divider-top-1665581130 .shape-fill {
+        fill: #2D132C;
+    }
+
+    .contact__main {
+        position: static;
+        padding: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        .contact__left {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 100%;
+            }
+        }
+        .contact__right {
+            flex: 1;
+            padding: 3rem;
+            border: 1px solid black;
+            form {
+                gap: 1rem;
+                display: flex;
+                align-items: flex-start;
+                justify-content: start;
+                flex-direction: column;
+                text-align: left;
+                input {
+                    padding: 1rem;
+                    width: 40%;
+                    background-color: transparent;
+                    border: 1px solid white;
+                    border-radius: .55rem;
+                }
+                textarea {
+                    resize: none;
+                }
+            }
+        }
+    }
+}
