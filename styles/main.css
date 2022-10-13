@@ -334,6 +334,24 @@ body {
 .contact .custom-shape-divider-top-1665581130 .shape-fill {
   fill: #2D132C;
 }
+.contact .custom-shape-divider-bottom-1665582059 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.contact .custom-shape-divider-bottom-1665582059 svg {
+  position: relative;
+  display: block;
+  width: calc(189% + 1.3px);
+  height: 56px;
+}
+.contact .custom-shape-divider-bottom-1665582059 .shape-fill {
+  fill: #2D132C;
+}
 .contact .contact__main {
   position: static;
   padding: 10rem;
@@ -354,7 +372,15 @@ body {
 .contact .contact__main .contact__right {
   flex: 1;
   padding: 3rem;
-  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 2rem;
+  background: url("../../images/form-bg.svg") fixed no-repeat center;
+  background-size: cover;
+}
+.contact .contact__main .contact__right h2 {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  padding: 0.5rem 0;
 }
 .contact .contact__main .contact__right form {
   gap: 1rem;
@@ -366,11 +392,115 @@ body {
 }
 .contact .contact__main .contact__right form input {
   padding: 1rem;
-  width: 40%;
-  background-color: transparent;
-  border: 1px solid white;
+  width: 100%;
+  background-color: rgba(238, 70, 64, 0.0470588235);
+  border: 1px solid #2D132C;
   border-radius: 0.55rem;
 }
+.contact .contact__main .contact__right form input::-moz-placeholder {
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+.contact .contact__main .contact__right form input:-ms-input-placeholder {
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+.contact .contact__main .contact__right form input::placeholder {
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
 .contact .contact__main .contact__right form textarea {
+  width: 100%;
+  padding: 1rem;
+  background-color: rgba(238, 70, 64, 0.0470588235);
+  border: 1px solid #2D132C;
+  border-radius: 0.55rem;
   resize: none;
+}
+.contact .contact__main .contact__right form textarea::-moz-placeholder {
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+.contact .contact__main .contact__right form textarea:-ms-input-placeholder {
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+.contact .contact__main .contact__right form textarea::placeholder {
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+.contact .contact__main .contact__right form button {
+  font-family: "Sora", sans-serif;
+  background-color: transparent;
+  padding: 0.5rem 2rem;
+  border: 2px solid #801336;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+  transition: background 250ms;
+}
+.contact .contact__main .contact__right form button:hover {
+  background: url("../../images/form-bg.svg") no-repeat center;
+  background-size: cover;
+}
+
+.connected {
+  height: 20vh;
+}
+.connected .connected__main {
+  background: url("../images/gradient-bg.png") fixed no-repeat center;
+  background-size: cover;
+  position: relative;
+  padding: 5rem 5rem 0 5rem;
+}
+.connected .connected__main .custom-shape-divider-top-1665688904 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.connected .connected__main .custom-shape-divider-top-1665688904 svg {
+  position: relative;
+  display: block;
+  width: calc(204% + 1.3px);
+  height: 100px;
+}
+.connected .connected__main .custom-shape-divider-top-1665688904 .shape-fill {
+  fill: #2D132C;
+}
+.connected .connected__main .connected__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.connected .connected__main .connected__text h2 {
+  font-family: "Sora", sans-serif;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-bottom: 2px solid white;
+  color: white;
+}
+.connected .connected__main .connected__socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+.connected .connected__main .connected__socials i {
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+  color: #EE4540;
+  transition: background, color 250ms;
+}
+.connected .connected__main .connected__socials i:hover {
+  background: url("../../images/background-desktop.svg") center no-repeat;
+  background-size: cover;
+  color: white;
 }/*# sourceMappingURL=main.css.map */

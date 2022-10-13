@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Noto+Sans+JP&family=Oxygen:wght@300&family=Rubik:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.u-container {
+    height: 100vh;
+    background:url("https://cdn.discordapp.com/attachments/969879637247291432/1024535467712057434/SS.png") no-repeat fixed center;
+    background-size: cover;
+}
+.header {
+display: flex;
+padding: 1rem 1rem;
+justify-content: space-between;
+position: sticky;
+top: 0;
+background-color: rgba(255, 255, 255, 0.089);
+}
+.header--secondary {
+    display: flex;
+padding: 1rem 1rem;
+justify-content: space-between;
+position: sticky;
+top: 0;
+background-color: #E14D2A;
+}
+
+.header__logo a {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight:600;
+
+}
+.header__logo a:hover {
+    color: rgb(255, 248, 233);
+    transition: 300ms;
+
+}
+.right__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    gap: 2rem;
+}
+.menu__item a{
+    color: white;
+}
+
+.menu__item a:hover{
+    color: rgb(255, 248, 233);
+    transition: 300ms;
+}
+
+.menu__item--active {
+    border-bottom: 2px solid white;
+}
+.hero__main {
+    display: flex;
+    height: 80vh;
+
+}
+
+.main__text {
+    width: fit-content;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+
+    
+}
+
+.hero__main {
+    position: absolute;
+    bottom: 0;
+}
+
+
+.main__text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    width: 60%;
+
+}
+.main__text p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1rem;
+    width: 55%;
+    padding-top: 2rem;
+}
+
+.main__text span {
+    color: #f8b176;
+    font-size: 3.5rem;
+}
+
+.button--primary {
+    font-family: 'Oxygen', sans-serif;
+    margin-top: 2rem;
+    background-color: #E14D2A;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    min-height: 3rem;
+    padding: 0.5rem;
+    width: fit-content;
+}
+.button--primary a{
+    color: white;
+}
+.button--secondary {
+    font-family: 'Oxygen', sans-serif;
+    margin:1rem 0rem 1rem;
+    background-color: #e1a12a;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    min-height: 3rem;
+    padding: 1rem 2rem;
+    width: fit-content;
+}
+
+.button--secondary:hover {
+    background-color: #E14D2A;
+    transition: 250ms;
+}
+
+.welcome__container{
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 15rem;
+    gap: 2rem;
+}
+.welcome__container img {
+    box-shadow: 15px 0 20px #ffb9cf ;
+}
+.welcome__text h3{
+    color: rgb(7, 7, 7);
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    padding-bottom: .8rem;
+    border-bottom: 1.5px solid #e1a12a;
+}
+.welcome__text p{
+    padding-top: 1rem;
+    color: rgb(7, 7, 7);
+    font-size: 1rem;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: lighter;
+}
+.welcome__text span{
+    font-size: 3rem;
+    color: #FD841F;
+}
+.welcome__container img {
+    width: 40rem;
+}
+
+footer {
+    height: 10vh;
+    background-color: #181818;
+    padding: 2rem;
+    
+}
+.footer__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__top {
+
+    display: flex;
+    justify-content: space-between;
+}
+.footer__top span {
+    color: #FD841F;
+}
+.footer__top h3 {
+    color: #FD841F;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight:600;
+}
+.footer__bottom {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+.footer__right {
+    color: white;
+    font-size: 1rem;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: lighter;
+}
+.footer__right p {
+    padding: 5px;
+    border-right: 1px solid white;
+}
+
+.footer__bottom .footer__right i{
+    cursor: pointer;
+    padding: 0 15px;
+    border-right: 1px solid #FD841F;
+}
+.footer__bottom span {
+    color: #FD841F ;
+}
+
+
+
+
+/* services */
+
+.services__container{
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 15rem;
+    gap: 2rem;
+    
+}
+.services__text h3{
+    color: rgb(7, 7, 7);
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    padding-bottom: .8rem;
+    border-bottom: 1.5px solid #e1a12a;
+}
+.services__container img{
+    width: 40rem;
+}
+.services__text p{
+    padding-top: 1rem;
+    color: rgb(7, 7, 7);
+    font-size: 1rem;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: lighter;
+}
+.services__text span{
+    color: #FD841F;
+}
+.secondary--card, .secondary--card h3, .secondary--card p{
+    color: white;
+    background-color: #CD104D;
+}
+
+
+.shop__banner {
+    margin: 1rem 4rem 4rem;
+}
+.shop__banner img{
+    width: 100%;
+}
+.shop__bottom {
+    margin: 1rem 0;
+    border: 1px solid #E14D2A;
+    border-radius: .25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 10rem;
+}
+.shop__icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.shop__icons span, .shop__icons p {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+.icons--border {
+    border-left: 1px solid #FD841F;
+    padding-left: 2rem;
+}
+.shop__foods {
+    margin: 4rem;
+}
+.shop__titles {
+    background-color: #E14D2A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+}
+.shop__titles h2{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bolder;
+}
+.shop__titles span{
+    color: #FD841F;
+    font-size: 2.5rem;
+}
+.shop__titles p {
+    font-size: 1rem;
+    color: #fff2e8;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bolder;
+}
+
+.shop__cards {
+    display: flex;
+
+}
+.shop__card {
+    margin: 1rem 0;
+    gap: .5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shop__card img {
+    max-width: 100%;
+    cursor: pointer;
+}
+.shop__card h4 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #e1a12a;
+}
+.shop__card p {
+
+    color: #202020;
+    font-family: 'Oxygen', sans-serif;
+    font-weight:bold;
+}
+.shop__card:hover {
+background: #fff6f0;
+transition: 200ms;
+}
+
+
+.about__banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background:url("https://cdn.discordapp.com/attachments/576208504226971648/1024952912553713704/banner-example.byw.png") no-repeat center;
+    background-size: cover;
+    background-position: center;
+}
+.about__banner h2 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.about__banner p {
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+    max-width: 55%;
+}
+
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    
+}
+.about__text {
+    gap: 1rem;
+    padding: 4rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.about__text h2{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #0a0a0a;
+}
+.about__text p {
+    max-width: 70%;
+    font-family: 'Oxygen', sans-serif;
+}
+.dark--bg {
+    background-color: #CD104D;
+}
+.dark--bg h2 {
+    color: #FD841F;
+}
+.dark--bg p {
+    color: white;
+}
+
+
+.contact__banner {
+    padding: 2rem;
+    text-align: center;
+}
+.contact__banner h3{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #0a0a0a;
+}
+.contact__banner p{
+    font-size: 1.2rem;
+    font-family: 'Oxygen', sans-serif;
+    color: #0a0a0a;
+}
+.contact__banner span {
+    color: #e1a12a;
+}
+.contact__form{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact__form input, .contact__form textarea {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    resize: none;
+}
+.contact__form button {
+    padding: 1rem 2rem;
+}
+.input--large {
+    padding: 2rem;
+}
+.contact__networks {
+    background-color: #E14D2A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.network__text {
+    padding: 2rem;
+    border-bottom: 1px solid black;
+}
+.network__text h4 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #0a0a0a;
+}
+.network__text p {
+    font-size: 1.4rem;
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+}
+.network__icons {
+    padding: 1rem;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.network__icons i {
+    padding: 0 2rem;
+    color: white;
+    cursor: pointer;
+}
+.network__icons i:hover {
+    color: #202020;
+    transition: 250ms;
+}
+
+.network__text span {
+    color: white;
+}
