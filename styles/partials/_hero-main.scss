@@ -24,8 +24,11 @@
     background: url('../../images/background-desktop.svg') fixed no-repeat;
     background-size: cover;
     display: flex;
-    .main__text {
+    .text__container {
+        display: f;
         flex: 1;
+    }
+    .main__text {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -47,6 +50,7 @@
             }
         }
         h2 {
+            width: fit-content;
             color: rgb(255, 255, 255);
             font-family: $titlefont;
             font-size: 10rem;
