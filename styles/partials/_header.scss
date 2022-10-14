@@ -3,6 +3,7 @@ body {
 }
 
 .header {
+    z-index: 1;
     position: absolute;
     width: 100%;
     padding: 1rem 4rem;
@@ -19,11 +20,16 @@ body {
     .header__right {
         .header__menu {
             display: flex;
+            justify-content: center;
+            align-items: center;
             gap: 3rem;
 
             a {
                 color: white;
                 font-family: $headerfont;
+            }
+            button {
+                @extend %button-primary;
             }
         }
     }

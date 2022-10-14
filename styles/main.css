@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope&family=Raleway&family=Sora&display=swap");
-.hero__main .main__text button {
+.hero__main .main__text button, .header .header__right .header__menu button {
   font-family: "Sora", sans-serif;
   background-color: transparent;
   padding: 0.5rem 2rem;
@@ -11,7 +11,7 @@
   cursor: pointer;
   transition: background 250ms;
 }
-.hero__main .main__text button:hover {
+.hero__main .main__text button:hover, .header .header__right .header__menu button:hover {
   background: url("../../images/button-bg.svg") no-repeat center;
   background-size: cover;
 }
@@ -29,6 +29,7 @@ body {
 }
 
 .header {
+  z-index: 1;
   position: absolute;
   width: 100%;
   padding: 1rem 4rem;
@@ -43,13 +44,14 @@ body {
 }
 .header .header__right .header__menu {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 3rem;
 }
 .header .header__right .header__menu a {
   color: white;
   font-family: "Raleway", sans-serif;
 }
-
 body {
   background: url("../../images/background-desktop.svg") fixed no-repeat;
   background-size: cover;
@@ -610,10 +612,16 @@ body {
     max-width: 100%;
   }
   .header .header__right .header__menu {
+    font-size: 0.9rem;
+    display: flex;
+    width: 100%;
     text-align: center;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+  }
+  .header .header__right .header__menu button {
+    display: none;
   }
   .about .about__main {
     padding: 1rem;

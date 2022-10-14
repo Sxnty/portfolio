@@ -36,10 +36,16 @@
             width: 100%;
             max-width: 100%;
             .header__menu {
+                font-size: .9rem;
+                display: flex;
+                width: 100%;
                 text-align: center;
                 justify-content: center;
                 align-items: center;
                 gap: .5rem;
+                button {
+                    display: none;
+                }
             }
         }
     }
