@@ -63,7 +63,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 body {
-  background: url("../../images/background-desktop.svg") fixed no-repeat;
+  background: url("../images/background-desktop.svg") fixed no-repeat;
   background-size: cover;
 }
 
@@ -157,7 +157,7 @@ body {
 }
 
 .about {
-  background: url("../../images/info-bg.svg") no-repeat center;
+  background: url("../images/info-bg.svg") no-repeat center;
   background-size: cover;
   position: relative;
 }
@@ -191,7 +191,7 @@ body {
   align-items: center;
 }
 .about .about__main .about__left img {
-  background: url("../../images/background-desktop.svg") fixed no-repeat;
+  background: url("../images/background-desktop.svg") fixed no-repeat;
   width: 40%;
   border: 1px solid white;
   border-radius: 0.25rem;
@@ -213,7 +213,7 @@ body {
   font-family: "Sora", sans-serif;
   font-size: 3rem;
   background-color: #EE4540;
-  background: url("../../images/background-desktop.svg") fixed center;
+  background: url("../images/background-desktop.svg") fixed center;
   background-size: cover;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -320,14 +320,14 @@ body {
   transition: background, color 250ms;
 }
 .knowledge .know__main .know__bottom i:hover {
-  background: url("../../images/background-desktop.svg") center no-repeat;
+  background: url("../images/background-desktop.svg") center no-repeat;
   background-size: cover;
   color: white;
 }
 
 .portfolio {
   padding: 10rem;
-  background: url("../../images/portfolio-bg.svg") no-repeat;
+  background: url("../images/portfolio-bg.svg") no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -394,7 +394,7 @@ body {
 
 .contact {
   position: relative;
-  background: url("../../images/contact-bg.svg") fixed center no-repeat;
+  background: url("../images/contact-bg.svg") fixed center no-repeat;
   background-size: cover;
 }
 .contact .custom-shape-divider-top-1665581130 {
@@ -455,7 +455,7 @@ body {
   padding: 3rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 2rem;
-  background: url("../../images/form-bg.svg") fixed no-repeat center;
+  background: url("../images/form-bg.svg") fixed no-repeat center;
   background-size: cover;
 }
 .contact .contact__main .contact__right h2 {
@@ -523,7 +523,7 @@ body {
   transition: background 250ms;
 }
 .contact .contact__main .contact__right form button:hover {
-  background: url("../../images/form-bg.svg") no-repeat center;
+  background: url("../images/form-bg.svg") no-repeat center;
   background-size: cover;
 }
 
@@ -581,7 +581,7 @@ body {
   transition: background, color 250ms;
 }
 .connected .connected__main .connected__socials i:hover {
-  background: url("../../images/background-desktop.svg") center no-repeat;
+  background: url("../images/background-desktop.svg") center no-repeat;
   background-size: cover;
   color: white;
 }

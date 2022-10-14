@@ -81,7 +81,7 @@
                 color: $lightred;
                 transition: background,color 250ms;
                 &:hover {
-                    background: url("../../images/background-desktop.svg") center no-repeat;
+                    background: url("../images/background-desktop.svg") center no-repeat;
                     background-size: cover;
                     color: white;
                 }
