@@ -42,6 +42,16 @@ body {
   font-family: "Manrope", sans-serif;
   font-weight: lighter;
 }
+.header .header__right nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.header .header__right nav i {
+  display: none;
+}
 .header .header__right .header__menu {
   display: flex;
   justify-content: center;

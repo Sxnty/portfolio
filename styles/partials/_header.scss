@@ -18,6 +18,16 @@ body {
         }
     }
     .header__right {
+        nav {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            i {
+                display: none;
+            }
+        }
         .header__menu {
             display: flex;
             justify-content: center;
