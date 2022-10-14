@@ -1,3 +1,8 @@
+body {
+    background: url('../../images/background-desktop.svg') fixed no-repeat;
+    background-size: cover;
+}
+
 .hero__main {
     .custom-shape-divider-bottom-1665533085 {
         position: absolute;
@@ -21,18 +26,18 @@
     }
     padding: $generalpadding;
     height: 100vh;
-    background: url('../../images/background-desktop.svg') fixed no-repeat;
-    background-size: cover;
+
     display: flex;
-    .text__container {
-        display: f;
+/*     .text__container {
+        display: flex;
         flex: 1;
-    }
+    } */
     .main__text {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        flex: 1;
         p {
             color: rgb(209, 209, 209);
             font-family: $headerfont;
