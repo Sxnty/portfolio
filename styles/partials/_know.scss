@@ -1,6 +1,51 @@
 .knowledge {
+    background: url("../images/background-desktop") fixed no-repeat;
+    background-size: cover;
     padding: 3rem;
+    position: relative;
     .know__main {
+        .custom-shape-divider-top-1665749965 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+        
+        .custom-shape-divider-top-1665749965 svg {
+            position: relative;
+            display: block;
+            width: calc(233% + 1.3px);
+            height: 84px;
+        }
+        
+        .custom-shape-divider-top-1665749965 .shape-fill {
+            fill: $dark;
+        }
+
+
+        .custom-shape-divider-bottom-1665750197 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+        }
+        
+        .custom-shape-divider-bottom-1665750197 svg {
+            position: relative;
+            display: block;
+            width: calc(233% + 1.3px);
+            height: 42px;
+            transform: rotateY(180deg);
+        }
+        
+        .custom-shape-divider-bottom-1665750197 .shape-fill {
+            fill: $dark;
+        }
         height: 20vh;
         display: flex;
         flex-direction: column;

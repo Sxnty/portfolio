@@ -1,10 +1,31 @@
 .about {
     background: url("../../images/info-bg.svg") no-repeat center;
     background-size: cover;
+    position: relative;
     .about__main {
         padding: 5rem;
         display: flex;
+        .custom-shape-divider-bottom-1665750197 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+        }
         
+        .custom-shape-divider-bottom-1665750197 svg {
+            position: relative;
+            display: block;
+            width: calc(233% + 1.3px);
+            height: 42px;
+            transform: rotateY(180deg);
+        }
+        
+        .custom-shape-divider-bottom-1665750197 .shape-fill {
+            fill: $dark;
+        }
         .about__left {
             flex: 1;
             display: flex;
