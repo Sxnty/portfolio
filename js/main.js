@@ -1,1 +1,1 @@
-import {changeLang} from './modules/changeLang.js'
+import {changeLang} from "./modules/changeLang.js"

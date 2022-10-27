@@ -41,6 +41,11 @@ body {
   color: white;
   font-family: "Manrope", sans-serif;
   font-weight: lighter;
+  cursor: pointer;
+  transition: color 250ms;
+}
+.header .header__logo h1:hover {
+  color: #EE4540;
 }
 .header .header__right nav {
   display: flex;
@@ -61,6 +66,10 @@ body {
 .header .header__right .header__menu a {
   color: white;
   font-family: "Raleway", sans-serif;
+  transition: color 100ms;
+}
+.header .header__right .header__menu a:hover {
+  color: rgb(221, 221, 221);
 }
 body {
   background: url("../images/background-desktop.svg") fixed no-repeat;
@@ -385,11 +394,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 250ms;
+  opacity: 80%;
 }
 .portfolio .portfolio__main .port__bottom .port__card img {
   box-shadow: rgba(165, 149, 149, 0.2) 0px 8px 24px;
   border-radius: 0.25rem;
   width: 100%;
+}
+.portfolio .portfolio__main .port__bottom .port__card:hover {
+  transform: translateY(-20px) scale(105%);
+  box-shadow: rgba(0, 0, 0, 0.39) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  opacity: 100%;
 }
 
 .contact {
