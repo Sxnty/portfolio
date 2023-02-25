@@ -5,7 +5,6 @@
   padding: 0.5rem 2rem;
   border: 2px solid #801336;
   color: white;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   cursor: pointer;
@@ -127,7 +126,6 @@ body {
   color: #EE4540;
 }
 .hero__main .main__text h2 {
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   color: rgb(255, 255, 255);
@@ -138,8 +136,7 @@ body {
   margin-top: 2rem;
 }
 .hero__main .main__img {
-  -webkit-animation: bounce 2s alternate infinite;
-          animation: bounce 2s alternate infinite;
+  animation: bounce 2s alternate infinite;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,14 +144,6 @@ body {
 }
 .hero__main .main__img img {
   width: 100%;
-}
-@-webkit-keyframes bounce {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(8px);
-  }
 }
 @keyframes bounce {
   0% {
@@ -224,7 +213,6 @@ body {
   background-color: #EE4540;
   background: url("../images/background-desktop.svg") fixed center;
   background-size: cover;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   border-bottom: 1px solid white;
@@ -236,7 +224,6 @@ body {
   font-weight: lighter;
 }
 .about .about__main .about__right a {
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   color: rgba(255, 255, 255, 0.862745098);
@@ -403,7 +390,7 @@ body {
   width: 100%;
 }
 .portfolio .portfolio__main .port__bottom .port__card:hover {
-  transform: translateY(-20px) scale(105%);
+  transform: translateY(-20px) rotateX(15deg) scale(105%);
   box-shadow: rgba(0, 0, 0, 0.39) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   opacity: 100%;
 }
@@ -498,10 +485,6 @@ body {
   color: white;
   font-family: "Manrope", sans-serif;
 }
-.contact .contact__main .contact__right form input:-ms-input-placeholder {
-  color: white;
-  font-family: "Manrope", sans-serif;
-}
 .contact .contact__main .contact__right form input::placeholder {
   color: white;
   font-family: "Manrope", sans-serif;
@@ -518,10 +501,6 @@ body {
   color: white;
   font-family: "Manrope", sans-serif;
 }
-.contact .contact__main .contact__right form textarea:-ms-input-placeholder {
-  color: white;
-  font-family: "Manrope", sans-serif;
-}
 .contact .contact__main .contact__right form textarea::placeholder {
   color: white;
   font-family: "Manrope", sans-serif;
@@ -532,7 +511,6 @@ body {
   padding: 0.5rem 2rem;
   border: 2px solid #801336;
   color: white;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   cursor: pointer;
@@ -618,20 +596,10 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
-  -webkit-animation: pulse 1500ms infinite;
-          animation: pulse 1500ms infinite;
+  animation: pulse 1500ms infinite;
 }
 .whatsapp__button i {
   color: white;
-}
-
-@-webkit-keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
-  }
-  80% {
-    box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
-  }
 }
 
 @keyframes pulse {
