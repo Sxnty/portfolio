@@ -343,7 +343,7 @@ body {
   height: 56px;
 }
 .portfolio .portfolio__main .custom-shape-divider-bottom-1665582059 .shape-fill {
-  fill: #2D132C;
+  fill: #2d132c;
 }
 .portfolio .portfolio__main .port__top {
   display: flex;
@@ -362,20 +362,9 @@ body {
 }
 .portfolio .portfolio__main .port__bottom {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  grid-template-areas: "work1 work2 work3";
+  grid-template-columns: repeat(4, 1fr);
   max-width: 100%;
   gap: 2rem;
-}
-.portfolio .portfolio__main .port__bottom .work1 {
-  grid-area: work1;
-}
-.portfolio .portfolio__main .port__bottom .work2 {
-  grid-area: work2;
-}
-.portfolio .portfolio__main .port__bottom .work3 {
-  grid-area: work3;
 }
 .portfolio .portfolio__main .port__bottom .port__card {
   display: flex;
